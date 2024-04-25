@@ -374,4 +374,15 @@ a.text-primary-hover:hover {
 }
 
 
+@media only screen and (max-width: 600px) {
+.row {
+  flex-direction: column;
+}
+.form-block {
+  display: none;
+}
+.navbar-2 {
+  display: none;
 
+}
+}
